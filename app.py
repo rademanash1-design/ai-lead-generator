@@ -49,19 +49,39 @@ def index():
             )
 
         result = f"""
-🔥 HIGH-QUALITY LOCAL LEADS
+🔥 LOCAL LEAD STRATEGY REPORT
 
-{''.join(leads)}
+Here are the best places to find potential customers for your {business} in {audience}:
+
+1. Facebook Community Groups
+   📍 Search for local homeowner groups in {audience}
+   💡 Post service offers & before/after results
+
+2. Google Maps Businesses
+   📍 Search: "property services near {audience}"
+   💡 Contact businesses with outdated listings or poor reviews
+
+3. Local WhatsApp & Community Boards
+   📍 Ask for referrals in neighbourhood groups
+   💡 High trust conversion source
+
+4. Property & Rental Listings
+   📍 Airbnb & rental platforms in {audience}
+   💡 Target property managers directly
+
+5. Estate Agencies
+   📍 Contact local real estate agents
+   💡 They constantly need maintenance partners
 
 ---
 
 📩 OUTREACH MESSAGE:
-Hi, I offer reliable {business} in {audience}. Would you like a quick quote?
+Hi, I provide reliable {business} in {audience}. I help property owners keep everything maintained and stress-free. Would you be open to a quick quote?
 
 ---
 
 🔁 FOLLOW-UP:
-Just checking in — still interested in improving your {business}?
+Just checking in — would you still like help with your {business} in {audience}?
 """
 
         last_result = result
